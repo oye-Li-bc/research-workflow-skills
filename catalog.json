@@ -1,0 +1,84 @@
+{
+  "schema_version": 1,
+  "project": "research-workflow-skills",
+  "version": "0.1.0",
+  "skills": [
+    {
+      "id": "arxiv-source",
+      "title": "arXiv 源码获取",
+      "path": "skills/arxiv-source",
+      "license": "MIT",
+      "lineage": [
+        "Work:paper-download-arxiv-paper-source"
+      ],
+      "requirements": "python-stdlib; network only for live download",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    },
+    {
+      "id": "paper-beamer",
+      "title": "论文转 Beamer",
+      "path": "skills/paper-beamer",
+      "license": "MIT",
+      "lineage": [
+        "Work:paper-to-beamer"
+      ],
+      "requirements": "paper access; optional TeX compiler and viewer",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    },
+    {
+      "id": "jupyter-environment",
+      "title": "Jupyter 环境诊断",
+      "path": "skills/jupyter-environment",
+      "license": "MIT",
+      "lineage": [
+        "Hermes:mlops/jupyter-notebook-environments"
+      ],
+      "requirements": "python-stdlib; target kernel interpreter",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    },
+    {
+      "id": "notebook-slides",
+      "title": "Notebook 幻灯片分段",
+      "path": "skills/notebook-slides",
+      "license": "MIT",
+      "lineage": [
+        "Hermes:mlops/jupyter-notebook-environments"
+      ],
+      "requirements": "python-stdlib; presentation viewer for visual QA",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    },
+    {
+      "id": "obsidian-research-notes",
+      "title": "Obsidian 研究笔记",
+      "path": "skills/obsidian-research-notes",
+      "license": "MIT",
+      "lineage": [
+        "Hermes:note-taking/obsidian-knowledge-authoring"
+      ],
+      "requirements": "confirmed vault; python-stdlib for link checks",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    },
+    {
+      "id": "rl-paper-tutoring",
+      "title": "RL/VLA 论文辅导",
+      "path": "skills/rl-paper-tutoring",
+      "license": "MIT",
+      "lineage": [
+        "Work:beginner-rl-paper-tutoring"
+      ],
+      "requirements": "paper passage and learner context",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    },
+    {
+      "id": "research-figures",
+      "title": "研究图表",
+      "path": "skills/research-figures",
+      "license": "MIT",
+      "lineage": [
+        "Hermes:data-viz/matplotlib-figures"
+      ],
+      "requirements": "plotting library and image/PDF viewer",
+      "status": "rewritten-and-reviewed; helper tests separate from agent evaluation"
+    }
+  ]
+}

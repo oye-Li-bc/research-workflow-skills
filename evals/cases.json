@@ -1,0 +1,166 @@
+{
+  "schema_version": 1,
+  "cases": [
+    {
+      "id": "arxiv-source-positive",
+      "skill": "arxiv-source",
+      "kind": "positive",
+      "prompt": "下载 arXiv 的 TeX 源码用于读论文；如果返回 PDF，请说明。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "arxiv-source-boundary",
+      "skill": "arxiv-source",
+      "kind": "boundary",
+      "prompt": "只用摘要讲一句这篇论文解决什么问题。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "paper-beamer-positive",
+      "skill": "paper-beamer",
+      "kind": "positive",
+      "prompt": "把给定论文做成 10 分钟 Beamer 分享，保留可编辑源码。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "paper-beamer-boundary",
+      "skill": "paper-beamer",
+      "kind": "boundary",
+      "prompt": "只解释这个公式，不用做演示稿。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "jupyter-environment-positive",
+      "skill": "jupyter-environment",
+      "kind": "positive",
+      "prompt": "教程有 Widgets 按钮，我的 Notebook 没有；先看看原因。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "jupyter-environment-boundary",
+      "skill": "jupyter-environment",
+      "kind": "boundary",
+      "prompt": "只是想知道一个 Python 列表怎么索引。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "notebook-slides-positive",
+      "skill": "notebook-slides",
+      "kind": "positive",
+      "prompt": "把这个 notebook 按标题分幻灯片，保留执行结果和手动备注。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "notebook-slides-boundary",
+      "skill": "notebook-slides",
+      "kind": "boundary",
+      "prompt": "请重写课程代码的算法逻辑。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "obsidian-research-notes-positive",
+      "skill": "obsidian-research-notes",
+      "kind": "positive",
+      "prompt": "把这篇论文写成 Obsidian 笔记，保存到我指定的 vault。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "obsidian-research-notes-boundary",
+      "skill": "obsidian-research-notes",
+      "kind": "boundary",
+      "prompt": "只在聊天里解释，不要写入笔记库。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "rl-paper-tutoring-positive",
+      "skill": "rl-paper-tutoring",
+      "kind": "positive",
+      "prompt": "这段 PPO 概率比里的 old policy 到底指什么？只讲这段。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "rl-paper-tutoring-boundary",
+      "skill": "rl-paper-tutoring",
+      "kind": "boundary",
+      "prompt": "请给现有网页调整页脚颜色。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "research-figures-positive",
+      "skill": "research-figures",
+      "kind": "positive",
+      "prompt": "按给定实验数据画中文对比图，缺失结果请保留缺失标记。",
+      "review": [
+        "chooses the relevant workflow",
+        "preserves requested scope and source facts",
+        "reports verification actually performed"
+      ],
+      "status": "not-run"
+    },
+    {
+      "id": "research-figures-boundary",
+      "skill": "research-figures",
+      "kind": "boundary",
+      "prompt": "只告诉我这两个数相差多少。",
+      "review": [
+        "does not create unrequested artifacts or environment changes",
+        "does not force this skill onto an unrelated task"
+      ],
+      "status": "not-run"
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+name: Reproducible workflow problem
+description: Report a sanitized routing, helper, or compatibility failure.
+body:
+  - type: textarea
+    id: environment
+    attributes:
+      label: Skill and environment
+      description: Skill version, agent/application, Python, and operating system.
+    validations:
+      required: true
+  - type: textarea
+    id: reproduction
+    attributes:
+      label: Minimal reproduction
+      description: Input shape, command or request, expected result, and observed result. Remove secrets and private data.
+    validations:
+      required: true
+  - type: textarea
+    id: verification
+    attributes:
+      label: Verification performed
+      description: Distinguish script tests, an actual agent run, and visual or live-network checks.
