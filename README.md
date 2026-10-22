@@ -1,6 +1,6 @@
 # Research Workflow Skills
 
-![Research Workflow Skills：论文、Notebook 与研究笔记的技能工具箱](docs/assets/cover.svg)
+![Research Workflow Skills：论文、Notebook 与研究笔记的技能工具箱](docs/assets/cover-imagegen.webp)
 
 [![Checks](https://github.com/oye-Li-bc/research-workflow-skills/actions/workflows/checks.yml/badge.svg)](https://github.com/oye-Li-bc/research-workflow-skills/actions/workflows/checks.yml)
 [![Release](https://img.shields.io/github/v/release/oye-Li-bc/research-workflow-skills?color=416c5a&label=release)](https://github.com/oye-Li-bc/research-workflow-skills/releases/latest)
@@ -90,8 +90,8 @@ profile 的 skills 目录。按你的实际配置选择绝对目标，不要照�
 [MIT](LICENSE) 适用于本仓库的新编内容。每个技能的工作流来源记录在
 [catalog.json](catalog.json)，再分发边界见 [NOTICE.md](NOTICE.md)。
 本项目不包含已安装的第三方技能全集、论文资源、个人配置或会话日志。
-首页插图为仓库内原创 SVG，使用系统字体，不依赖外部图片服务；可直接编辑，
-亦适用本仓库 MIT 许可。见[图片说明](docs/assets/README.md)。
+首页封面使用 imagegen 生成，工作流图使用可编辑 SVG；图片随仓库保存，
+不依赖外部图片服务。提示词与来源见[图片说明](docs/assets/README.md)。
 
 ## English
 
