@@ -1,0 +1,80 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="730" viewBox="0 0 1440 730" role="img" aria-labelledby="title desc">
+  <title id="title">Seven skills for the research workflow</title>
+  <desc id="desc">Read and understand: arxiv-source and rl-paper-tutoring. Explore and prepare: jupyter-environment and notebook-slides. Explain and retain: paper-beamer, research-figures and obsidian-research-notes. These are task groups, not an automated pipeline.</desc>
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto"><path d="m1 1 5 3-5 3" fill="none" stroke="#648178" stroke-width="1.5"/></marker>
+  </defs>
+  <rect x="1" y="1" width="1438" height="728" rx="24" fill="#f7f8f3" stroke="#d8e2d9" stroke-width="2"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="48" y="55" fill="#537267" font-size="14" font-weight="700" letter-spacing="2.5">THE LIBRARY AT A GLANCE</text>
+    <text x="46" y="108" fill="#18342f" font-size="38" font-weight="700" letter-spacing="-.8">From a paper to something you can use.</text>
+    <text x="48" y="145" fill="#61756c" font-size="20">Pick a focused skill at each stage of your research.</text>
+    <path d="M459 218h37M936 218h37" fill="none" stroke="#648178" stroke-width="2" marker-end="url(#arrow)"/>
+    <g transform="translate(36 190)">
+      <rect width="414" height="459" rx="18" fill="#e8eee7"/>
+      <circle cx="36" cy="30" r="16" fill="#23483d"/>
+      <text x="36" y="35" text-anchor="middle" fill="#f8faf3" font-size="14" font-weight="700">1</text>
+      <text x="62" y="37" fill="#23483d" font-size="21" font-weight="700">Read &amp; understand</text>
+      <g transform="translate(18 68)">
+        <rect width="378" height="110" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#22473b" font-size="22" font-weight="600">arxiv-source</text>
+        <text x="20" y="62" fill="#61756c" font-size="17">Retrieve and inspect paper sources.</text>
+        <text x="20" y="88" fill="#3b7963" font-size="14" font-weight="600">BOUNDED EXTRACTION / HASHES</text>
+      </g>
+      <g transform="translate(18 192)">
+        <rect width="378" height="110" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#22473b" font-size="22" font-weight="600">rl-paper-tutoring</text>
+        <text x="20" y="62" fill="#61756c" font-size="17">Unpack symbols and data flow.</text>
+        <text x="20" y="88" fill="#3b7963" font-size="14" font-weight="600">SMALL EXAMPLES / CLEAR SCOPE</text>
+      </g>
+      <path d="M38 351h47m-47 12h67m-67 12h57" fill="none" stroke="#b2c4b6" stroke-width="4" stroke-linecap="round"/>
+      <text x="38" y="420" fill="#587165" font-size="16">Start with the source and the question.</text>
+    </g>
+    <g transform="translate(513 190)">
+      <rect width="414" height="459" rx="18" fill="#e5edf0"/>
+      <circle cx="36" cy="30" r="16" fill="#2f5362"/>
+      <text x="36" y="35" text-anchor="middle" fill="#f8faf3" font-size="14" font-weight="700">2</text>
+      <text x="62" y="37" fill="#2f5362" font-size="21" font-weight="700">Explore &amp; prepare</text>
+      <g transform="translate(18 68)">
+        <rect width="378" height="110" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#294b5a" font-size="22" font-weight="600">jupyter-environment</text>
+        <text x="20" y="62" fill="#607480" font-size="17">Understand the active environment.</text>
+        <text x="20" y="88" fill="#47758a" font-size="14" font-weight="600">METADATA / NO CELL EXECUTION</text>
+      </g>
+      <g transform="translate(18 192)">
+        <rect width="378" height="110" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#294b5a" font-size="22" font-weight="600">notebook-slides</text>
+        <text x="20" y="62" fill="#607480" font-size="17">Set presentation boundaries.</text>
+        <text x="20" y="88" fill="#47758a" font-size="14" font-weight="600">KEEP CODE / OUTPUTS / MANUAL MARKS</text>
+      </g>
+      <path d="m38 352 12 12-12 12m25 0h43" fill="none" stroke="#b0c2cb" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+      <text x="38" y="420" fill="#586f7b" font-size="16">Make the working context explicit.</text>
+    </g>
+    <g transform="translate(990 190)">
+      <rect width="414" height="459" rx="18" fill="#f2e8df"/>
+      <circle cx="36" cy="30" r="16" fill="#7c5543"/>
+      <text x="36" y="35" text-anchor="middle" fill="#f8faf3" font-size="14" font-weight="700">3</text>
+      <text x="62" y="37" fill="#7c5543" font-size="21" font-weight="700">Explain &amp; retain</text>
+      <g transform="translate(18 68)">
+        <rect width="378" height="110" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#76503f" font-size="22" font-weight="600">paper-beamer</text>
+        <text x="20" y="62" fill="#806d60" font-size="17">Build editable, source-backed slides.</text>
+        <text x="20" y="88" fill="#986f52" font-size="14" font-weight="600">EVIDENCE / COMPILATION CHECKS</text>
+      </g>
+      <g transform="translate(18 192)">
+        <rect width="378" height="110" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#76503f" font-size="22" font-weight="600">research-figures</text>
+        <text x="20" y="62" fill="#806d60" font-size="17">Communicate results with care.</text>
+        <text x="20" y="88" fill="#986f52" font-size="14" font-weight="600">UNITS / SOURCES / VISUAL REVIEW</text>
+      </g>
+      <g transform="translate(18 316)">
+        <rect width="378" height="125" rx="12" fill="#fff"/>
+        <text x="20" y="32" fill="#76503f" font-size="22" font-weight="600">obsidian-research-notes</text>
+        <text x="20" y="62" fill="#806d60" font-size="17">Keep reusable, linked Markdown notes.</text>
+        <text x="20" y="88" fill="#986f52" font-size="14" font-weight="600">SOURCE LINKS / READ-ONLY LINK CHECK</text>
+      </g>
+    </g>
+    <circle cx="49" cy="689" r="4" fill="#648178"/>
+    <text x="64" y="695" fill="#61756c" font-size="16">Task groups, not an automated pipeline. Tools and outputs depend on your environment.</text>
+  </g>
+</svg>

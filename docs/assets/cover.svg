@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="520" viewBox="0 0 1440 520" role="img" aria-labelledby="title desc">
+  <title id="title">Research Workflow Skills</title>
+  <desc id="desc">A portable library for papers, notebooks and research notes. Seven skills and four Python helpers, illustrated by connected research documents.</desc>
+  <defs>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#263845" stroke-width="1"/></pattern>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#101e2a"/><stop offset="1" stop-color="#172d37"/></linearGradient>
+    <linearGradient id="paper" x2="1" y2="1"><stop stop-color="#f9f7ee"/><stop offset="1" stop-color="#dae9df"/></linearGradient>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="180%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#050e16" flood-opacity=".35"/></filter>
+  </defs>
+  <rect width="1440" height="520" rx="24" fill="url(#bg)"/>
+  <rect x="790" width="650" height="520" rx="24" fill="url(#grid)" opacity=".45"/>
+  <circle cx="1176" cy="245" r="188" fill="none" stroke="#31515a"/>
+  <circle cx="1176" cy="245" r="225" fill="none" stroke="#31515a" stroke-dasharray="3 11"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <rect x="64" y="56" width="36" height="36" rx="10" fill="#abebcc"/>
+    <path d="m75 67-5 7 5 7m14-14 5 7-5 7m-5-17-5 20" fill="none" stroke="#142b2a" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+    <text x="114" y="80" fill="#abebcc" font-size="15" font-weight="600" letter-spacing="2.5">THE RESEARCH TOOLKIT</text>
+    <text x="60" y="192" fill="#f8f7ef" font-size="76" font-weight="700" letter-spacing="-3">Research</text>
+    <text x="60" y="276" fill="#f8f7ef" font-size="76" font-weight="700" letter-spacing="-3">Workflow Skills<tspan fill="#abebcc">.</tspan></text>
+    <text x="64" y="328" fill="#b7c8cc" font-size="24">Read papers. Work in notebooks. Keep knowledge.</text>
+    <g font-size="16" font-weight="600">
+      <rect x="64" y="377" width="116" height="39" rx="19.5" fill="#263d43" stroke="#3e595e"/>
+      <text x="122" y="402" fill="#d7ece2" text-anchor="middle">07 skills</text>
+      <rect x="192" y="377" width="172" height="39" rx="19.5" fill="#263d43" stroke="#3e595e"/>
+      <text x="278" y="402" fill="#d7ece2" text-anchor="middle">04 Python helpers</text>
+      <rect x="376" y="377" width="142" height="39" rx="19.5" fill="#263d43" stroke="#3e595e"/>
+      <text x="447" y="402" fill="#d7ece2" text-anchor="middle">MIT licensed</text>
+    </g>
+    <text x="64" y="470" fill="#78979d" font-size="15" letter-spacing="1">PAPERS / NOTEBOOKS / RESEARCH NOTES</text>
+    <path d="M980 173h244v112h-114v130" fill="none" stroke="#abebcc" stroke-width="2" stroke-dasharray="6 7" opacity=".8"/>
+    <g transform="translate(875 99) rotate(-8 92 110)" filter="url(#shadow)">
+      <rect width="184" height="220" rx="13" fill="url(#paper)"/>
+      <rect x="22" y="23" width="55" height="22" rx="6" fill="#d2e4da"/>
+      <text x="49" y="39" fill="#2d5d50" text-anchor="middle" font-size="12" font-weight="700">PAPER</text>
+      <path d="M24 67h127M24 80h102" stroke="#284c48" stroke-width="6" stroke-linecap="round"/>
+      <path d="M24 103h137M24 114h137M24 125h104" stroke="#b0c3bb" stroke-width="4" stroke-linecap="round"/>
+      <rect x="24" y="148" width="136" height="48" rx="6" fill="#c3d9cc"/>
+      <path d="m33 184 28-16 24 9 26-19 39 12" fill="none" stroke="#518875" stroke-width="3"/>
+    </g>
+    <g transform="translate(1083 183) rotate(6 132 92)" filter="url(#shadow)">
+      <rect width="264" height="178" rx="14" fill="#e3f0e7"/>
+      <path d="M0 35h264" stroke="#b9d2c5"/>
+      <circle cx="20" cy="18" r="4" fill="#d98f7c"/><circle cx="34" cy="18" r="4" fill="#e5c379"/><circle cx="48" cy="18" r="4" fill="#78af97"/>
+      <text x="246" y="23" fill="#537466" text-anchor="end" font-size="10" font-weight="700" letter-spacing="1">NOTEBOOK</text>
+      <rect x="18" y="51" width="228" height="48" rx="6" fill="#203b3d"/>
+      <path d="m31 66 6 7-6 7m17-14h55m10 0h27m-92 14h88" fill="none" stroke="#abebcc" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+      <path d="M30 144h204M38 150v-36" fill="none" stroke="#a2bfb1" stroke-width="2"/>
+      <path d="m39 138 27-5 32 2 29-14 33 3 28-12 38-1" fill="none" stroke="#548974" stroke-width="3" stroke-linecap="round"/>
+    </g>
+    <g transform="translate(959 348) rotate(-3 98 43)" filter="url(#shadow)">
+      <rect width="196" height="86" rx="12" fill="#eab39b"/>
+      <path d="M21 25h19v28H21zM25 32h11m-11 7h11m-11 7h7" fill="none" stroke="#69483d" stroke-width="2" stroke-linecap="round"/>
+      <text x="54" y="37" fill="#422f2a" font-size="16" font-weight="700">Research notes</text>
+      <text x="54" y="59" fill="#725548" font-size="12">Sources stay connected.</text>
+    </g>
+    <circle cx="1285" cy="104" r="20" fill="#abebcc"/>
+    <path d="M1285 94v20m-10-10h20" stroke="#244940" stroke-width="2" stroke-linecap="round"/>
+    <circle cx="877" cy="375" r="5" fill="#eab39b"/>
+    <circle cx="1340" cy="421" r="4" fill="#abebcc"/>
+  </g>
+</svg>

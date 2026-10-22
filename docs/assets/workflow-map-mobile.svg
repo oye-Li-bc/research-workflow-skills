@@ -1,0 +1,44 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="660" height="1110" viewBox="0 0 660 1110" role="img" aria-labelledby="title desc">
+  <title id="title">Seven research workflow skills, compact overview</title>
+  <desc id="desc">Read: arxiv-source and rl-paper-tutoring. Prepare: jupyter-environment and notebook-slides. Share and retain: paper-beamer, research-figures and obsidian-research-notes. Task groups, not an automated pipeline.</desc>
+  <rect x="1" y="1" width="658" height="1108" rx="24" fill="#f7f8f3" stroke="#d8e2d9" stroke-width="2"/>
+  <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+    <text x="30" y="48" fill="#537267" font-size="17" font-weight="700" letter-spacing="2">THE LIBRARY AT A GLANCE</text>
+    <text x="28" y="99" fill="#18342f" font-size="36" font-weight="700">Seven skills. Your workflow.</text>
+    <text x="30" y="134" fill="#61756c" font-size="21">Choose a focused skill for the task.</text>
+    <g transform="translate(24 166)">
+      <rect width="612" height="250" rx="18" fill="#e8eee7"/>
+      <text x="22" y="40" fill="#23483d" font-size="26" font-weight="700">01 / Read &amp; understand</text>
+      <rect x="14" y="61" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="93" fill="#22473b" font-size="25" font-weight="600">arxiv-source</text>
+      <text x="30" y="123" fill="#61756c" font-size="21">Retrieve and inspect paper sources.</text>
+      <rect x="14" y="154" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="186" fill="#22473b" font-size="25" font-weight="600">rl-paper-tutoring</text>
+      <text x="30" y="216" fill="#61756c" font-size="21">Unpack symbols and data flow.</text>
+    </g>
+    <g transform="translate(24 438)">
+      <rect width="612" height="250" rx="18" fill="#e5edf0"/>
+      <text x="22" y="40" fill="#2f5362" font-size="26" font-weight="700">02 / Explore &amp; prepare</text>
+      <rect x="14" y="61" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="93" fill="#294b5a" font-size="25" font-weight="600">jupyter-environment</text>
+      <text x="30" y="123" fill="#607480" font-size="21">Understand the active environment.</text>
+      <rect x="14" y="154" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="186" fill="#294b5a" font-size="25" font-weight="600">notebook-slides</text>
+      <text x="30" y="216" fill="#607480" font-size="21">Set presentation boundaries.</text>
+    </g>
+    <g transform="translate(24 710)">
+      <rect width="612" height="343" rx="18" fill="#f2e8df"/>
+      <text x="22" y="40" fill="#7c5543" font-size="26" font-weight="700">03 / Explain &amp; retain</text>
+      <rect x="14" y="61" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="93" fill="#76503f" font-size="25" font-weight="600">paper-beamer</text>
+      <text x="30" y="123" fill="#806d60" font-size="21">Build editable, source-backed slides.</text>
+      <rect x="14" y="154" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="186" fill="#76503f" font-size="25" font-weight="600">research-figures</text>
+      <text x="30" y="216" fill="#806d60" font-size="21">Communicate results with care.</text>
+      <rect x="14" y="247" width="584" height="81" rx="10" fill="#fff"/>
+      <text x="30" y="279" fill="#76503f" font-size="25" font-weight="600">obsidian-research-notes</text>
+      <text x="30" y="309" fill="#806d60" font-size="21">Keep reusable, linked Markdown notes.</text>
+    </g>
+    <text x="30" y="1088" fill="#61756c" font-size="20">Task groups, not an automated pipeline.</text>
+  </g>
+</svg>

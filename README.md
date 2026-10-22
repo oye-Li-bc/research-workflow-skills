@@ -1,10 +1,30 @@
 # Research Workflow Skills
 
+![Research Workflow Skills：论文、Notebook 与研究笔记的技能工具箱](docs/assets/cover.svg)
+
+[![Checks](https://github.com/oye-Li-bc/research-workflow-skills/actions/workflows/checks.yml/badge.svg)](https://github.com/oye-Li-bc/research-workflow-skills/actions/workflows/checks.yml)
+[![Release](https://img.shields.io/github/v/release/oye-Li-bc/research-workflow-skills?color=416c5a&label=release)](https://github.com/oye-Li-bc/research-workflow-skills/releases/latest)
+[![License: MIT](https://img.shields.io/badge/license-MIT-416c5a)](LICENSE)
+
 面向论文阅读、课程 Notebook 和研究笔记的可维护技能库。
 从实际 Work/Hermes 工作流提炼，使用通用 `SKILL.md` 入口，附独立脚本、
 来源说明、离线测试和人工评估案例。
 
-[![Checks](https://github.com/oye-Li-bc/research-workflow-skills/actions/workflows/checks.yml/badge.svg)](https://github.com/oye-Li-bc/research-workflow-skills/actions/workflows/checks.yml)
+**[浏览技能](#技能) · [快速开始](#快速检查) · [安装与使用](#使用到-codex--hermes) · [下载版本](https://github.com/oye-Li-bc/research-workflow-skills/releases/latest) · [English](#english)**
+
+## 一眼看懂
+
+<picture>
+  <source media="(max-width: 600px)" srcset="docs/assets/workflow-map-mobile.svg">
+  <img src="docs/assets/workflow-map.svg" alt="七项技能按论文理解、Notebook 准备、成果表达与知识整理分组；分组不代表自动执行流水线">
+</picture>
+
+- **读论文**：提取来源、理解 RL/VLA 的符号与数据流。
+- **整理 Notebook**：检查环境信息、设置演示边界，保留已有代码和输出。
+- **沉淀研究成果**：制作 Beamer、绘制研究图表、整理带来源的 Markdown 笔记。
+
+这些技能可按任务独立选用。图中连线表示研究阶段之间的关系，具体工具要求和
+验证范围见各技能说明及[兼容性文档](docs/compatibility.md)。
 
 ## 技能
 
@@ -70,6 +90,8 @@ profile 的 skills 目录。按你的实际配置选择绝对目标，不要照�
 [MIT](LICENSE) 适用于本仓库的新编内容。每个技能的工作流来源记录在
 [catalog.json](catalog.json)，再分发边界见 [NOTICE.md](NOTICE.md)。
 本项目不包含已安装的第三方技能全集、论文资源、个人配置或会话日志。
+首页插图为仓库内原创 SVG，使用系统字体，不依赖外部图片服务；可直接编辑，
+亦适用本仓库 MIT 许可。见[图片说明](docs/assets/README.md)。
 
 ## English
 
